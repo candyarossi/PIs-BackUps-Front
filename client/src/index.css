@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+pre {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  background-color: lightgray;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 10px;
+  border-radius: 10px;
+  width: 96%;
+  text-align: left;
+  font-size: 14px;
+  height: 400px;
+  overflow-x: hidden;
+}
+
+pre::-webkit-scrollbar {
+  width: 14px;
+  margin: -14px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: rgb(165, 165, 165);
+  border-radius: 0 7px 7px 0;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 20px;
+  border: 3px solid rgb(165, 165, 165);
+}
+
+header,
+footer {
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+form {
+  margin-top: 10px;
+}
+
+.inputs,
+.rta {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.inputs {
+  border-radius: 10px 10px 0 0;
+  margin: 10px 0 0 0;
+}
+
+.rta {
+  border-radius: 0 0 10px 10px;
+  margin: -1px 0 10px 0;
+}
+
+.enviar {
+  height: 44px;
+  width: 12%;
+  margin-left: 8px;
+  border-radius: 10px;
+  border: 1px solid darkgreen;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+}
+
+.rutaPrincipal,
+.rutasDisponibles,
+.variables {
+  height: 40px;
+  width: 28.3%;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+.rutasDisponibles,
+.variables {
+  margin-left: -1px;
+}
+
+.rutasDisponibles {
+  height: 44px;
+}
+
+.rutaPrincipal {
+  border-radius: 10px 0 0 10px;
+}
+
+.variables {
+  border-radius: 0 10px 10px 0;
+}
+
+.inputDisabled {
+  background-color: rgb(235, 235, 235);
+}
+
+.descApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px 0 20px 0;
+}
+
+.parrafo {
+  text-align: left;
+  width: 93%;
+}
+
+.descripcionRuta,
+.rtaUrlRuta {
+  color: rgb(89, 89, 89);
+  margin: 30px 10px 0 20px;
+  width: 93%;
+  line-height: 24px;
+  text-align: left;
+}
+
+.rtaUrlRuta {
+  margin: 10px 0 10px 20px;
+}
+
+.spinner {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.logo {
+  width: 30%;
+}
+
+.titulo {
+  font-size: 2rem;
+  display: inline-block;
+  position: relative;
+  top: -2.7rem;
+  left: -2rem;
+}
+
+.copy:hover {
+  color: black;
+}
+
+.copy:active {
+  color: green;
+}
